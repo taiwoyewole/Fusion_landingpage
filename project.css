@@ -46,10 +46,10 @@ nav ul li {
     padding: 0px 50px;
 }
 .inner_div {
-  width: 250px;
+    width: 45%;
     float: left;
     padding: 15px;
-    margin: 0px 35px 25px 35px;
+    margin: 0px 15px 25px 15px;
     border-radius: 4px;
 }
 .inner_div ion-icon {
@@ -79,10 +79,10 @@ nav ul li {
 }
 .inner_div2 {
     width: 220px;
-    margin: 30px 0px 15px 0px;
+    margin: 35px 0px 10px 0px;
     font-size: 12px;
-    border: 1px outset #f8f8f8;
     border-radius: 2px;
+    padding: 1px 0px;
 }
  .inner_div2 ion-icon {
    padding: 0px 10px;
@@ -112,10 +112,10 @@ nav ul li {
 }
 #section_three img {
        width: 34%;
-    padding: 140px 0px 0px 0px;
+    padding: 140px 0px 0px 10px;
 }
 #team{
-    margin-top: 85px;
+    margin-top: 130px;
     padding: 0px 50px;
     height: 450px;
 }
@@ -126,6 +126,65 @@ nav ul li {
     margin: 0px 16px 16px 16px;
     width: 45%;
     float: left;
+}
+#pricing {
+    padding: 0px 50px;
+}
+#pricing-section {
+        /* height: 450px; */
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+}
+.prices {
+    width: 30%;
+    float: left;
+    margin: 25px 11px 25px 11px;
+}
+#t-section {
+    padding: 50px 0;
+    background-color: #f60630;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tes {
+    width: 29%;
+    padding: 15px 2px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.trial {
+    padding: 0px 50px;
+}
+#contact {
+    padding: 1px 50px;
+}
+form {
+    width: 90%;
+    margin: 20px auto;
+    justify-self: flex-start;
+}
+#name-email {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+#name-email input {
+    width: 47%;
+}
+#sect {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+#logo {
+    margin-top: 20px;
+}
+.section1 {
+    width: 42%;
 }
 }
 @media only screen and (min-device-width: 1024px) {
@@ -151,12 +210,13 @@ nav ul li {
     margin-top: 130px;
 }
 #section_one {
-  height: 540px;
+  height: 680px;
     margin-top: 60px;
     padding: 0px 50px;
 }
 .inner_div {
   margin: 0px 29px 24px 29px;
+  width: 42%;
 }
 #section_two {
     padding: 50px 0px 50px 0px;
@@ -181,7 +241,8 @@ nav ul li {
     padding-left: 100px;
 }
 .inner_div2 {
-   margin: 30px 20px 30px 20px;
+   margin: 30px 10px 30px 10px;
+   width: 260px;
 }
 #section_three {
     padding: 0px 100px;
@@ -200,13 +261,36 @@ nav ul li {
 }
 #section_three img {
     width: 33%;
-    padding-top: 130px;
+    padding-left: 0px;
+    padding-top: 85px;
 }
 #team {
     padding: 0px 100px;
 }
 .teams {
     margin: 0px 20px 16px 20px;
+}
+.prices {
+    margin-right: 19px;
+}
+.tes {
+    margin-right: 21px;
+}
+#contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    margin-top: 30px;
+}
+#contact-form {
+    width: 50%;
+    box-sizing: border-box;
+}
+#footer {
+    padding: 0px 50px 0px 50px;
+}
+.section1 {
+    width: 25%;
 }
 }
 @media only screen and (min-device-width: 1440px) {
@@ -252,9 +336,9 @@ nav h1 {
     height: 550px;
 }
 .inner_div {
-    width: 300px;
+    width: 375px;
     padding: 25px;
-    margin: 0px 73px 30px 73px;
+    margin: 0px 35px 30px 35px;
 }
 #section_two {
     padding: 100px;
@@ -284,7 +368,7 @@ nav h1 {
     padding: 25px;
   }
 .inner_div2 {
-    width: 310px;
+    width: 345px;
     padding: 15px;
     font-size: 14px;
 } 
@@ -298,7 +382,7 @@ ion-icon {
     font-size: 25px;
 }
 #right-div .inner_div2 {
-  width: 310px;
+  width: 345px;
 }
 #right-div p {
     width: 175px;
@@ -316,5 +400,35 @@ ion-icon {
 }
 .teams ion-icon {
     padding-top: 10px;
+}
+.prices {
+    width: 26%;
+    padding: 45px 0px;
+}
+.prices h4 {
+    font-size: 30px;
+}
+.prices h3 {
+    font-size: 20px;
+}
+.prices p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+.prices a {
+    font-size: 145%;
+}
+.trial {
+    font-size: 20px;
+}
+#contact-section {
+    padding: 0px;
+}
+#contact-form {
+    width: 60%;
+    margin: 20px 50px 20px 0px;
+}
+iframe {
+    width: 145%;
 }
 }

@@ -68,7 +68,7 @@ nav li a:visited {
     background-color: #f60630;
     color: #ffffff;
 }
-#services h2 {
+h2 {
     text-align: center;
     font-family: 'Arvo', serif;
     color: black;
@@ -87,25 +87,26 @@ hr {
     margin-top: 30px;
 }
 .inner_div {
-    width: 70%;
+    width: 80%;
     text-align: center;
     padding: 0px 3px;
     font-size: 12px;
-    border: 1px outset #f8f8f8;
     border-radius: 4px;
     margin: auto;
     margin-bottom: 20px;
+    box-shadow: 4px 4px 10px 2px #ddd;
+    cursor: pointer;
 }
 .inner_div ion-icon {
     font-size: 15px;
     color: #f60630;
-    border: 1px solid #d8d8d8;
+    border: 1px solid #e3e3e3;
     padding: 15px;
     border-radius: 50px;
     text-align: center;
     margin-top: 9px;
 }
-.inner_div h3, .inner_div2 h4, .teams h3 {
+.inner_div h3, .inner_div2 h4, .teams h3{
     font-family: 'Arvo', serif;
     font-size: 12px;
     color: #2b2727;
@@ -144,12 +145,14 @@ hr {
     color: #ffffff;
 }
 .inner_div2 {
-    width: 250px;
+    width: 85%;
     font-size: 12px;
-    border: 1px outset #f8f8f8;
     border-radius: 2px;
     margin: auto;
     margin-top: 20px;
+    box-shadow: 4px 4px 10px 2px #ddd;
+    padding: 1px 8px;
+    cursor: pointer;
 }
 .inner_div2 ion-icon {
     padding: 0px 25px;
@@ -169,13 +172,6 @@ hr {
 }
 #team-div {
     margin-top: 35px;
-}
-#team h2 {
-    text-align: center;
-    font-family: Arvo, serif;
-    color: black;
-    margin-bottom: 2px;
-    padding-top: 40px;
 }
 .teams  {
     border-width: 1px;
@@ -209,4 +205,166 @@ hr {
     font-size: 15px;
     color: #121218;
     padding-left: 9px;
+}
+#pricing {
+    padding: 0px 10px;
+}
+.prices {
+    width: 85%;
+    font-size: 12px;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 4px 4px 10px 2px #ddd;
+    padding: 25px 0px;
+    cursor: pointer;
+    text-align: center;
+}
+.prices .fas, .prices .far  {
+    background-color: #b5adaf;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+#tint {
+    background-color: #f60630;
+    color: white;
+}
+.prices h4 {
+    font-size: 20px;
+    color: #f60630;
+}
+small {
+    font-size: 10px;
+    color: #5d5b5b;
+}
+.prices h3, .tes h3 {
+    font-family: 'Arvo', serif;
+    font-size: 14px;
+    color: #2b2727; 
+    margin: 0;
+}
+.prices p {
+    margin-bottom: 5px;
+}
+.prices a, .trial a {
+    border: 1px solid #f60630;
+    background-color: #f60630;
+    border-radius: 25px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 75%;
+}
+#testimonial {
+    margin-top: 35px;
+    text-align: center;
+}
+#t-section {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    background-color: #f60630;
+}
+.tes {
+    padding-top: 30px;
+    border: 1px solid white;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 85%;
+}
+.tes .material-icons {
+    font-size: 100px;
+    color: #f60630;
+}
+.tes h5 {
+    margin: 0;
+    color: #2b2727;
+}
+.tes p {
+    font-size: 12px;
+}
+.trial {
+    padding: 0px 10px;
+    font-size: 12px;
+    text-align: left;
+}
+.trial h2{
+    text-align: left;
+}
+form {
+    width: 85%;
+    margin: 20px auto;
+}
+input, textarea {
+    display: block;
+    padding: 6px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+button:hover {
+ background-color: white;
+ color: #f60630;
+}
+button {
+    text-align: left;
+    font-size: 85%;
+    color: white;
+    border: none;
+    background-color: #f60630;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+#contact {
+    background-color: whitesmoke;
+    margin-top: 35px;
+    padding-top: 1px;
+}
+iframe {
+    width: 100%;
+    padding: 15px;
+}
+#footer {
+    padding: 0px 20px 0px 20px;
+}
+#footer ul {
+    margin-top: 40px;
+    list-style: none;
+    padding-left: 0px;
+}
+#logo {
+    font-size: 40px;
+    color: #f60630;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#footer li a {
+    padding-right: 30px;
+    color: #5d5b5b;
+}
+#footer li a:visited {
+    color: #f60630;
+}
+#footer h3 {
+    font-family: 'Arvo', serif;
+    color: #2b2727;
+}
+.fas, .far {
+    color: #f60630;
+}
+#footer .fas {
+    color: #2b2727;
+    padding-right: 10px;
+}
+#footer span {
+    padding-left: 27px;
+}
+#copyright {
+    text-align: center;
+    border-top: 1px solid #5d5b5b;
+}
+#copyright span {
+    color: #f60630;
+    padding-left: 0px;
 }
